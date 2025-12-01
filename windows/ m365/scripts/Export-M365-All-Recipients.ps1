@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    Export all Exchange Online recipients.
-    (EN) Exports all recipients via Get-Recipient.
-    (PL) Eksportuje wszystkich odbiorców za pomocą Get-Recipient.
+    Export all Exchange Online recipients via Get-Recipient.
+    (EN) Exports all recipients (users, groups, shared, contacts, resources) from Exchange Online.
+    (PL) Eksportuje wszystkich odbiorców z Exchange Online (użytkownicy, grupy, skrzynki współdzielone, kontakty, zasoby).
 
 .DESCRIPTION
     (EN) This script exports all recipients from Exchange Online using Get-Recipient:
