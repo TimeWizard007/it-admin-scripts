@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    Export Microsoft 365 user mailboxes with primary SMTP address and all email addresses.
-    (EN) Exports user mailboxes with primary address and all SMTP addresses.
-    (PL) Eksportuje skrzynki użytkowników z głównym adresem oraz wszystkimi adresami SMTP.
+    Export Exchange Online user mailboxes (basic email inventory).
+    (EN) Exports user mailboxes with primary SMTP address and all SMTP addresses.
+    (PL) Eksportuje skrzynki użytkowników w Exchange Online (adres główny + wszystkie adresy SMTP).
 
 .DESCRIPTION
     (EN) This script exports all user mailboxes (RecipientTypeDetails = UserMailbox)
