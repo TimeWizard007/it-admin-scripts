@@ -4,9 +4,7 @@
 # 🇵🇱 Exchange Online – Zestaw skryptów do inwentaryzacji adresów e-mail
 
 ## 1. Opis projektu
-Ten zestaw skryptów PowerShell umożliwia wykonanie **szczegółowej inwentaryzacji adresów e-mail w Exchange Online (Microsoft 365)**.  
-Skrypty są przeznaczone do:
-
+Ten zestaw skryptów PowerShell umożliwia wykonanie **szczegółowej inwentaryzacji adresów e-mail w Exchange Online (Microsoft 365)**. Skrypty są przeznaczone do:
 - audytów adresacji,
 - porządkowania środowiska e-mail,
 - raportowania aliasów i skrzynek współdzielonych,
@@ -22,13 +20,14 @@ Każdy skrypt posiada:
 ---
 
 ## 2. Struktura repozytorium
+```text
 scripts/
 │ ├── Export-M365-Users-Emails.ps1
 │ ├── Export-M365-Shared-Mailboxes.ps1
 │ ├── Export-M365-Shared-Permissions.ps1
 │ ├── Export-M365-All-Recipients.ps1
 │ └── Export-M365-AIO.ps1
-
+```
 ---
 
 ## 3. Opis skryptów
@@ -76,9 +75,7 @@ Connect-ExchangeOnline
 🇬🇧 Exchange Online – Email Address Inventory Scripts
 
 ## 1. Project Description
-This PowerShell script set enables generating a detailed email address inventory for Exchange Online (Microsoft 365).
-The scripts are intended for:
-
+This PowerShell script set enables generating a detailed email address inventory for Exchange Online (Microsoft 365). The scripts are intended for:
 - address audits,
 - cleanup of the email environment,
 - reporting aliases and shared mailboxes,
@@ -93,12 +90,15 @@ Each script includes:
 
 ---
 ## 2. Repository Structure
+```text
 scripts/
-│   ├── Export-M365-Users-Emails.ps1
-│   ├── Export-M365-Shared-Mailboxes.ps1
-│   ├── Export-M365-Shared-Permissions.ps1
-│   ├── Export-M365-All-Recipients.ps1
-│   └── Export-M365-AIO.ps1
+│ ├── Export-M365-Users-Emails.ps1
+│ ├── Export-M365-Shared-Mailboxes.ps1
+│ ├── Export-M365-Shared-Permissions.ps1
+│ ├── Export-M365-All-Recipients.ps1
+│ └── Export-M365-AIO.ps1
+```
+---
 
 ## 3. Script Descriptions
 
