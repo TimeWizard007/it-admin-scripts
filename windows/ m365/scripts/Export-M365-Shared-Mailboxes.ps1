@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    Export Microsoft 365 shared mailboxes with primary SMTP and all email addresses.
+    Export Exchange Online shared mailboxes (basic email inventory).
     (EN) Exports shared mailboxes with primary and all SMTP addresses.
-    (PL) Eksportuje skrzynki współdzielone z głównym adresem oraz wszystkimi adresami SMTP.
+    (PL) Eksportuje skrzynki współdzielone w Exchange Online (adres główny + wszystkie adresy SMTP).
 
 .DESCRIPTION
     (EN) This script exports all shared mailboxes (RecipientTypeDetails = SharedMailbox)
