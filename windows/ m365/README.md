@@ -26,7 +26,7 @@ scripts/
 │ ├── Export-M365-Shared-Mailboxes.ps1
 │ ├── Export-M365-Shared-Permissions.ps1
 │ ├── Export-M365-All-Recipients.ps1
-│ └── Export-M365-AIO.ps1
+│ └── Export-M365-EXO-AddressInventory.ps1
 ```
 ---
 
@@ -54,8 +54,8 @@ Eksportuje wszystkie obiekty zwracane przez `Get-Recipient`:
 - zasoby,
 - kontakty.
 
-### 3.5 Export-M365-AIO.ps1
-Skrypt „All-In-One”:
+### 3.5 3.5 Export-M365-EXO-AddressInventory.ps1
+Skrypt zbiorczy (Address Inventory):
 - uruchamia wszystkie cztery eksporty,
 - zapisuje cztery pliki CSV,
 - idealny do audytów i raportów dla klientów.
@@ -96,7 +96,7 @@ scripts/
 │ ├── Export-M365-Shared-Mailboxes.ps1
 │ ├── Export-M365-Shared-Permissions.ps1
 │ ├── Export-M365-All-Recipients.ps1
-│ └── Export-M365-AIO.ps1
+│ └── Export-M365-EXO-AddressInventory.ps1
 ```
 ---
 
@@ -124,8 +124,8 @@ Exports all objects returned by Get-Recipient:
 - resources,
 - contacts.
 
-### 3.5 Export-M365-AIO.ps1
-“All-In-One” script:
+### 3.5 Export-M365-EXO-AddressInventory.ps1
+Full Address Inventory script:
 - runs all four exports,
 - outputs four CSV files,
 - ideal for audits and customer reporting.
