@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    Export FullAccess permissions to shared mailboxes.
+    Export Exchange Online FullAccess permissions to shared mailboxes.
     (EN) Exports mapping between shared mailboxes and users with FullAccess.
-    (PL) Eksportuje powiązania skrzynek współdzielonych z użytkownikami mającymi FullAccess.
+    (PL) Eksportuje powiązania skrzynek współdzielonych z użytkownikami mającymi uprawnienia FullAccess.
 
 .DESCRIPTION
     (EN) This script exports mapping between shared mailboxes and users
